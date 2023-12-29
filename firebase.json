@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "public": "public",
-    "site": "horseandbreeder",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
