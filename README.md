@@ -1,5 +1,4 @@
 # horse-and-breeder
-<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -20,9 +19,11 @@ npm run build
 ```
 npm run lint
 ```
+### Install Vue Router if you haven't already
+```
+npm install vue-router
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-Gather information about horses and breeders, including images, descriptions, achievements, and any other relevant details
->>>>>>> 8a7b95c92aa609ee7b3753c20f6127bed045b72c
+Gather information about horses and breeders, including images, descriptions, achievements, and any other relevant details.
