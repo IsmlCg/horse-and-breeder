@@ -43,7 +43,7 @@
                   id="Breed"
                   name="Breed"
                   required
-                  placeholder="Breed"
+                  placeholder="Studbook"
                 />
               </div>
             </div>
