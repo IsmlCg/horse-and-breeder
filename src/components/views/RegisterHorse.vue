@@ -1,5 +1,5 @@
 <template>
-  <!-- Contact Form -->
+  <!-- register Form -->
   <div class="overflow-hidden">
     <div class="container content-space-1 content-space-lg-1">
       <form @submit.prevent="submitData">
