@@ -43,13 +43,4 @@ const router = createRouter({
   routes,
 });
 
-// router.beforeEach((to, from, next) => {
-//   document.title = to.meta.title || "horse and breeder";
-//   next();
-// });
-
-// router.beforeEach((to) => {
-//   document.title = to.meta?.title ?? "Default Title";
-// });
-
 export default router;
