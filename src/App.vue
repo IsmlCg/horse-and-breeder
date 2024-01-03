@@ -5,6 +5,7 @@
     <div id="app">
       <NavBar />
       <router-view />
+      <AppFooter />
     </div>
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
@@ -12,9 +13,10 @@
 <script>
 // import router from "./components/router/index.js";
 import NavBar from "./components/views/NavBar";
+import AppFooter from "./components/views/AppFooter";
 export default {
   name: "App",
-  components: { NavBar },
+  components: { NavBar, AppFooter },
 };
 </script>
  

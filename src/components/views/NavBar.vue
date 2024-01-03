@@ -80,14 +80,13 @@ export default {
     toggleButton() {
       // Toggle the visibility of the button
       var nav = document.getElementById("navbarNavMenuWithMegaMenu");
-
+      console.log(nav.style.display);
       // Toggle the nav's visibility
-      if (nav.style.display == "none") {
+      if (nav.style.display == "none" || nav.style.display == "") {
         nav.style.display = "block";
       } else {
         nav.style.display = "none";
       }
-      console.log(nav.style.display);
     },
   },
 };

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container content-space-b-2 content-space-b-lg-3 content-space-1 overflow-hidden"
+    class="container content-space-b-2 content-space-b-lg-1 content-space-1 overflow-hidden"
   >
     <div class="row row-cols-1 row-cols-sm-2 gx-7">
       <div
