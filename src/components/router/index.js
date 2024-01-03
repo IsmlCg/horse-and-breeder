@@ -17,20 +17,20 @@ const routes = [
     props: true,
   },
   {
-    path: "/register-horse/",
+    path: "/register-horse",
     name: "RegisterHorse",
     component: RegisterHorse,
-    props: true,
   },
   // Catch-all route for 404 Not Found
   {
     path: "/:catchAll(.*)",
     component: NotFound,
+    name: "NotFound",
   },
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes,
 });
 
