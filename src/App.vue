@@ -1,7 +1,9 @@
 <template>
   <!-- ========== MAIN CONTENT ========== -->
+  <title>demo</title>
   <main id="content" role="main">
     <div id="app">
+      <NavBar />
       <router-view />
     </div>
   </main>
@@ -9,9 +11,10 @@
 </template> 
 <script>
 // import router from "./components/router/index.js";
+import NavBar from "./components/views/NavBar";
 export default {
   name: "App",
-  // components: { router },
+  components: { NavBar },
 };
 </script>
  

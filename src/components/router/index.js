@@ -28,4 +28,13 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || "horse and breeder";
+  next();
+});
+// Set favicon
+const link = document.createElement("link");
+link.rel = "shortcut icon";
+link.href = "https://htmlstream.com/unify/favicon.ico";
+document.head.appendChild(link);
 export default router;
