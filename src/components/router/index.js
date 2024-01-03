@@ -4,6 +4,7 @@ import Home from "../views/HomePage.vue";
 import HorseDetail from "../views/HorseDetail.vue";
 import RegisterHorse from "../views/RegisterHorse";
 import NotFound from "../views/PageError404";
+import SignIn from "../views/SignIn";
 const routes = [
   {
     path: "/",
@@ -20,6 +21,11 @@ const routes = [
     path: "/register-horse",
     name: "RegisterHorse",
     component: RegisterHorse,
+  },
+  {
+    path: "/sign-in",
+    name: "SignIn",
+    component: SignIn,
   },
   // Catch-all route for 404 Not Found
   {

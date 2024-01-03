@@ -47,13 +47,18 @@
               <router-link :to="{ name: 'Home' }">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link :to="{ name: 'RegisterHorse' }" class="nav-link"
-                >Register horse</router-link
-              >
+              <router-link :to="{ name: 'RegisterHorse' }" class="nav-link">
+                Register horse
+              </router-link>
             </li>
             <!-- Log in -->
             <li class="nav-item">
-              <a class="btn btn-ghost-dark me-2 me-lg-0" href="#">Log in</a>
+              <router-link
+                :to="{ name: 'SignIn' }"
+                class="btn btn-ghost-dark me-2 me-lg-0"
+              >
+                Log in
+              </router-link>
               <a class="btn btn-dark d-lg-none" href="#">Sign up</a>
             </li>
             <!-- Sign up -->
