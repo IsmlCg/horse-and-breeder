@@ -9,7 +9,7 @@
         <router-link to="/">
           <img
             class="navbar-brand-logo"
-            src="./../../assets/logo.svg"
+            src="./../../assets/logo.png"
             alt="Logo"
           />
         </router-link>

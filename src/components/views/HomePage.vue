@@ -51,10 +51,10 @@
         </li>
 
         <li class="page-item active">
-          <a @click="getHorses" class="page-link" href="#">1</a>
+          <a class="page-link" href="#">1</a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">2</a>
+          <a class="page-link" @click="getHorses" href="#">2</a>
         </li>
         <li class="page-item">
           <a class="page-link" href="#">3</a>
